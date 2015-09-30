@@ -1,24 +1,36 @@
 
+
 /* General */
 body{
 	font-family: 'Georgia', "Times New Roman", Times, serif;
 	font-size: 100%;
 	background-image: url(spilledbeans.png);
-	color: silver;
-	text-align: center;
+	color: black;
+	text-align: left;
 }
 
 h2{
-	color: #FF5C33;
-	font-size: 1.25 em;
+	color: red;
+	font-size: 1.25 rem;
+	text-align: center;
 }
 h3{
 	font-style: italic;
-	font-size: 1 em;
+	font-size: 1 rem;
+	text-align: center;
 }
 p{
-	font-size: .75 em;
+	font-size: .75 rem;
+	text-align: left;
 }
+/*Content*/
+#content{
+	margin: 10%;
+	padding: 15%;
+	background: bisque; 
+	opacity: .55;
+}
+
 /* Site Welcome Info */
 .info{
 	text-align: center;
@@ -28,25 +40,26 @@ p{
 /* Articles */
 article{
 	border-top-style: dashed;
-	border-color: lightgrey;
+	border-color: black;
 }
 article ul{
 	list-style-type: square;
+	list-style-position: inside;
 }
 .articleContent p{
-	text-indent: 4em;
+	text-indent: 4 rem;
 }
 
 aside{
 	border-style: dashed;
-	border-color: orangered;
+	border-color: red;
 	text-align: center;
 }
 /* Logo */
 .site{
 	font-family: Stencil, fantasy;
 	text-align: center;
-	font-size: 1.5 em;
+	font-size: 1.5 rem;
 }
 .site a{
 	color: orange;	
@@ -67,16 +80,17 @@ header ul a{
 	padding-right: 40px;
 	padding-left: 40px;
 	line-height: 50px;
-	font-size: 1 em;
+	font-size: 1 rem;
 	color: orange;
 }
 
 header ul a:hover {
-	text-decoration: underline
+	text-decoration: underline;
 }
 
 .button{
 	float: left;
+	display: block;
 }
 
 .active {
