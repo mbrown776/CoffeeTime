@@ -1,13 +1,47 @@
-.active {
-	font-weight: bold;
+
+/* General */
+body{
+	font-family: 'Georgia';
+	font-size: 100%;
 }
 
 h2{
 	color: #FF5C33;
+	font-size: 1.25 em;
+}
+h3{
+	font-style: italic;
+	font-size: 1 em;
+}
+/* Site Welcome Info */
+.info{
+	text-align: center;
+	padding-bottom: 40px;
 }
 
-body{
-	font-family: 'Georgia';
+/* Articles */
+article{
+	border-top-style: dashed;
+	border-color: lightgrey;
+}
+
+p{
+	font-size: .75 em;
+}
+
+/* Logo */
+.site{
+	font-family: Stencil;
+	text-align: center;
+	font-size: 1.5 em;
+}
+.site a{
+	color: orange;	
+}
+
+/* Navigation */
+.active {
+	font-weight: bold;
 }
 
 ul{
@@ -25,7 +59,7 @@ ul a{
 	padding-left: 40px;
 	line-height: 50px;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
+	font-size: 1 em;
 	color: orange;
 }
 
@@ -35,24 +69,4 @@ ul a:hover {
 
 .button{
 	float: left;
-}
-.site{
-	font-family: Stencil;
-	text-align: center;
-}
-.site a{
-	color: orange;
-	
-}
-.info{
-	text-align: center;
-	padding-bottom: 40px;
-	font-size: 1.2em;
-}
-h3{
-	font-style: italic;
-}
-article{
-	border-top-style: dashed;
-	border-color: lightgrey;
 }
