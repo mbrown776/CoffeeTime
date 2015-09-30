@@ -1,0 +1,58 @@
+.active {
+	font-weight: bold;
+}
+
+h2{
+	color: #FF5C33;
+}
+
+body{
+	font-family: 'Georgia';
+}
+
+ul{
+	list-style-type: none;
+	height: 80px;
+	width: 663px;
+	margin: auto;
+	
+}
+a{
+	text-decoration: none;
+}
+ul a{
+	padding-right: 40px;
+	padding-left: 40px;
+	line-height: 50px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: orange;
+}
+
+ul a:hover {
+	text-decoration: underline
+}
+
+.button{
+	float: left;
+}
+.site{
+	font-family: Stencil;
+	text-align: center;
+}
+.site a{
+	color: orange;
+	
+}
+.info{
+	text-align: center;
+	padding-bottom: 40px;
+	font-size: 1.2em;
+}
+h3{
+	font-style: italic;
+}
+article{
+	border-top-style: dashed;
+	border-color: lightgrey;
+}
