@@ -1,7 +1,7 @@
 
 /* General */
 body{
-	font-family: 'Georgia';
+	font-family: 'Georgia', "Times New Roman", Times, serif;
 	font-size: 100%;
 }
 
@@ -31,7 +31,7 @@ p{
 
 /* Logo */
 .site{
-	font-family: Stencil;
+	font-family: Stencil, fantasy;
 	text-align: center;
 	font-size: 1.5 em;
 }
@@ -40,10 +40,6 @@ p{
 }
 
 /* Navigation */
-.active {
-	font-weight: bold;
-}
-
 ul{
 	list-style-type: none;
 	height: 80px;
@@ -58,7 +54,6 @@ ul a{
 	padding-right: 40px;
 	padding-left: 40px;
 	line-height: 50px;
-	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 1 em;
 	color: orange;
 }
@@ -69,4 +64,9 @@ ul a:hover {
 
 .button{
 	float: left;
+}
+
+.active {
+	font-weight: 900;
+	font-family: Stencil, fantasy;
 }
