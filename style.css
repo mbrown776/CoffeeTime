@@ -4,6 +4,8 @@ body{
 	font-family: 'Georgia', "Times New Roman", Times, serif;
 	font-size: 100%;
 	background-image: url(spilledbeans.png);
+	color: silver;
+	text-align: center;
 }
 
 h2{
