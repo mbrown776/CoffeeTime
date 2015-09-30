@@ -28,10 +28,13 @@ article{
 	border-top-style: dashed;
 	border-color: lightgrey;
 }
-
+article ul{
+	list-style-type: square;
+}
 .articleContent p{
 	text-indent: 4em;
 }
+
 aside{
 	border-style: dashed;
 	border-color: orangered;
@@ -48,17 +51,17 @@ aside{
 }
 
 /* Navigation */
-ul{
+header ul{
 	list-style-type: none;
 	height: 80px;
 	width: 663px;
 	margin: auto;
 	
 }
-a{
+header a{
 	text-decoration: none;
 }
-ul a{
+header ul a{
 	padding-right: 40px;
 	padding-left: 40px;
 	line-height: 50px;
@@ -66,7 +69,7 @@ ul a{
 	color: orange;
 }
 
-ul a:hover {
+header ul a:hover {
 	text-decoration: underline
 }
 
