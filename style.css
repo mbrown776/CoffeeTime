@@ -3,6 +3,7 @@
 body{
 	font-family: 'Georgia', "Times New Roman", Times, serif;
 	font-size: 100%;
+	background-color: floralwhite;
 }
 
 h2{
@@ -12,6 +13,9 @@ h2{
 h3{
 	font-style: italic;
 	font-size: 1 em;
+}
+p{
+	font-size: .75 em;
 }
 /* Site Welcome Info */
 .info{
@@ -25,10 +29,14 @@ article{
 	border-color: lightgrey;
 }
 
-p{
-	font-size: .75 em;
+.articleContent p{
+	text-indent: 4em;
 }
-
+aside{
+	border-style: dashed;
+	border-color: orangered;
+	text-align: center;
+}
 /* Logo */
 .site{
 	font-family: Stencil, fantasy;
@@ -70,3 +78,11 @@ ul a:hover {
 	font-weight: 900;
 	font-family: Stencil, fantasy;
 }
+
+/* Heading */
+
+/* ! still need to make heading visible when scrolling 
+#heading{
+	position: relative;
+}
+*/
