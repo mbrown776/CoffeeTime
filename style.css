@@ -44,7 +44,7 @@ article{
 }
 article ul{
 	list-style-type: square;
-	list-style-position: inside;
+	list-style-position: outside;
 }
 .articleContent p{
 	text-indent: 4 rem;
